@@ -1,5 +1,4 @@
 import React from "react";
-// 1. Importamos el hook
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {

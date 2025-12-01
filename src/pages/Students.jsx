@@ -30,7 +30,7 @@ const Students = () => {
             </li>
 
             <li>
-              <Link to={`/students/optional/${value}`}>Student Optional</Link>
+              <Link to={`/students/optional/${value}`}>Optional Segment</Link>
               <input
                 type="number"
                 value={value}

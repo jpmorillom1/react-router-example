@@ -21,7 +21,7 @@ const StudentList = () => {
       <input
         value={filterValue}
         onChange={handleSearch}
-        placeholder="Filtrar estudiantes..."
+        placeholder="Filter"
         style={{ padding: "8px", marginBottom: "10px" }}
       />
 
@@ -29,7 +29,6 @@ const StudentList = () => {
         You are searching for: <strong>{filterValue}</strong>
       </p>
 
-      {/* Aquí filtrarías tu lista real usando filterValue */}
       <ul>
         <li>Juan Pérez</li>
         <li>María Gomez</li>

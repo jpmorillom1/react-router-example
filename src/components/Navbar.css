@@ -34,9 +34,20 @@ nav ul li a {
   font-weight: 500;
   transition: color 0.3s;
 }
+.navbar-container li:hover {
+  color: #007bff;
+}
 
 .active-link {
   color: #007bff; /* Azul (o el color de tu tema) */
   font-weight: bold; /* Negrita para resaltar */
   border-bottom: 2px solid #007bff; /* Una línea debajo se ve muy "app moderna" */
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
 }

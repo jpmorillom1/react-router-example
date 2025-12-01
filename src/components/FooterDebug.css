@@ -1,0 +1,31 @@
+.footer-debug {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 2px solid #ddd;
+  text-align: center;
+}
+
+.footer-debug h4 {
+  margin: 0 0 0.75rem 0;
+  color: #333;
+  font-size: 1rem;
+}
+
+.debug-info {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+.debug-info span {
+  color: #666;
+}
+
+.debug-info strong {
+  color: #333;
+  margin-right: 0.5rem;
+}
+
